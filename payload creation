@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Save the bash script to a file
+echo "#!/bin/bash" > script.sh
+echo "$@" >> RANSOMEWARE.sh
+
+# Convert the bash script to a PDF payload
+convert --density 300 RANSOMWARE.sh COOL.pdf
